@@ -12,5 +12,17 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
     </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlActivated">@color/duskyellow</item>
+    </style>
+    <style name="Theme.ExerciseHotelRating.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.ExerciseHotelRating.AppBarOverlay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.ExerciseHotelRating.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

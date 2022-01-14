@@ -1,79 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/finalText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:text="Overall Services : Give stars to know"
-        android:layout_marginTop="400dp"
-        android:textSize="20sp"
-        android:textColor="@color/purple_700"/>
-
-    <RatingBar
-        android:id="@+id/rating1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:paddingRight="5dp"
-        android:paddingLeft="5dp"
-        android:numStars="5"
-        android:rating="3.5"/>
-
-    <RatingBar
-        android:id="@+id/rating2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="110dp"
-        android:paddingRight="5dp"
-        android:paddingLeft="5dp"
-        android:numStars="5"
-        android:rating="3.5"/>
-
-    <RatingBar
-        android:id="@+id/rating3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="190dp"
-        android:numStars="5"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:rating="4.0" />
-
-    <RatingBar
-        android:id="@+id/rating4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="290dp"
-        android:numStars="5"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:rating="4.0" />
-
-
-    <RatingBar
-        android:id="@+id/finalRating"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:isIndicator="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="450dp"
-        android:numStars="5"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:rating="4.0" />
-
-
-
-</RelativeLayout>
+</ScrollView>
