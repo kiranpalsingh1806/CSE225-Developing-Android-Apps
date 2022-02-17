@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_email"
+        android:icon="@android:drawable/ic_dialog_email"
+        android:orderInCategory="100"
+        android:title="Email"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_alert"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:orderInCategory="200"
+        android:title="Alert"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_info"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:orderInCategory="300"
+        android:title="Info"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/setting1"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:orderInCategory="300"
+        android:title="Setting 1"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/setting2"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:orderInCategory="300"
+        android:title="Setting 2"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/setting3"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:orderInCategory="300"
+        android:title="Setting 3"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:id="@+id/exit"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:orderInCategory="300"
+        android:title="Exit"
+        app:showAsAction="collapseActionView"/>
+
+</menu>

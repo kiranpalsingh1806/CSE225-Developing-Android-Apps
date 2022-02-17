@@ -57,8 +57,4 @@ class MainActivity : AppCompatActivity() {
             textView1.setText("0 / 100")
         }
     }
-
-    fun reset(view: android.view.View) {
-
-    }
 }
