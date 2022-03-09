@@ -10,7 +10,7 @@
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainer"
         android:layout_width="match_parent"
-        android:layout_height="600dp"/>
+        android:layout_height="600dp" />
     
     <Button
         android:layout_width="150dp"
