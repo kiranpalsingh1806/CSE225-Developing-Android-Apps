@@ -10,7 +10,7 @@
             android:layout_width="match_parent"
             class="com.example.fragments_list_data_transfter.FirstFragment"
             android:id="@+id/fragment"
-            android:layout_weight="0.5"/>
+            android:layout_weight="0.6"/>
         <View
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -22,5 +22,5 @@
             android:layout_height="match_parent"
             class="com.example.fragments_list_data_transfter.SecondFragment"
             android:id="@+id/fragment2"
-            android:layout_weight="0.5"/>
+            android:layout_weight="0.4"/>
     </LinearLayout>

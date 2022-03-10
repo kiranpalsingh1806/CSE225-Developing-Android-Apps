@@ -37,7 +37,7 @@ class FirstFragment : Fragment() {
         "Cupcake", "Donut", "Eclair", "Froye", "Gingerbread", "Honeycomb", "Ice Cream Sandwich", "Jelly Bean", "Kitkat", "Lollipop", "Marshmallow", "Nougat", "Oreo"
     )
 
-    var cards= arrayOf(R.drawable.image1,R.drawable.image2,R.drawable.image3,R.drawable.image4)
+    var CardsOS= arrayOf(R.drawable.image1,R.drawable.image2,R.drawable.image3,R.drawable.image4)
 
     lateinit var  lv : ListView
 
@@ -51,6 +51,7 @@ class FirstFragment : Fragment() {
         lv.setAdapter(arrayAdapter)
         lv.setOnItemClickListener { adapterView, view, i, l ->
             val txtFrag = parentFragmentManager.findFragmentById(R.id.fragment2) as SecondFragment
+            txtFrag.changeImage(CardsOS[i % 4])
             txtFrag.change("Android OS : -" + AndroidOS[i])
             lv.setSelector(R.color.purple_200)
         }

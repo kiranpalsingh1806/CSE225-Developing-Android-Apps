@@ -48,6 +48,10 @@ class SecondFragment : Fragment() {
         textos.text = txt
     }
 
+    fun changeImage(img: Int) {
+        imageos.setImageResource(img)
+    }
+
     companion object {
         /**
          * Use this factory method to create a new instance of
