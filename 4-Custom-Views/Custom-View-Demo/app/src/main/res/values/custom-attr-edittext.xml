@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="EditTextCustom">
+        <attr name="setColor1" format="boolean"/>
+        <attr name="setHint" format="string"/>
+    </declare-styleable>
+</resources>

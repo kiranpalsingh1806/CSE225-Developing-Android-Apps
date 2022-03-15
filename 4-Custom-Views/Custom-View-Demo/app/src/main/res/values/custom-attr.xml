@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <declare-styleable name="TextViewCustom">
+        <attr name="setColor" format="boolean"/>
+        <attr name="setTitle" format="string"/>
+        <attr name="setItalic" format="boolean"/>
+    </declare-styleable>
 </resources>
