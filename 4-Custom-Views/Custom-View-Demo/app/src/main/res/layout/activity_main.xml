@@ -8,13 +8,15 @@
     tools:context=".MainActivity">
 
     <com.example.custom_view_demo.TextViewCustom
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:setTitle =  "Custom Title"
-        app:setColor = "true"
+        app:setColor = "false"
         app:setItalic="true"
+        app:makeAllCapital="true"
+        app:typeColor="red"
         android:layout_marginTop="200dp"
-        android:layout_marginLeft="150dp"
+        android:layout_marginLeft="30dp"
         android:textAlignment="center"
         android:textStyle="bold"
         android:textSize="40dp"/>

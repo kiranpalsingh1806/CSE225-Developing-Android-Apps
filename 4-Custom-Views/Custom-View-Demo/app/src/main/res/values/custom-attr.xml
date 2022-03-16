@@ -2,7 +2,9 @@
 <resources>
     <declare-styleable name="TextViewCustom">
         <attr name="setColor" format="boolean"/>
+        <attr name="typeColor" format="string"/>
         <attr name="setTitle" format="string"/>
         <attr name="setItalic" format="boolean"/>
+        <attr name="makeAllCapital" format="boolean"/>
     </declare-styleable>
 </resources>
