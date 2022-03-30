@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_main)
 
         name = findViewById(R.id.etName)
         email = findViewById(R.id.etEmail)
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    fun signup(view : View?) {
+    fun save(view : View?) {
         val n = name.text.toString()
         val e = email.text.toString()
         val editor = sharedpreferences.edit()
@@ -44,13 +44,20 @@ class MainActivity : AppCompatActivity() {
         editor.commit()
     }
 
-    fun login(view : View) {
+    fun clear(view : View?) {
+        name.text = ""
+        email.text = ""
+    }
+
+    fun get(view : View) {
         sharedpreferences = getSharedPreferences(mypreference, Context.MODE_PRIVATE)
 
-        if(sharedpreferences.contains(Name) && sharedpreferences.contains(Email)) {
-            status.text = "You are logged in successfully !!!"
-        } else {
-            status.text = "Dear User, something is wrong :("
+        if(sharedpreferences.contains(Name)) {
+            name.text = sharedpreferences.getString(Name, "")
+        }
+
+        if(sharedpreferences.contains(Email)) {
+            email.text = (sharedpreferences.getString(Email, ""))
         }
     }
 }

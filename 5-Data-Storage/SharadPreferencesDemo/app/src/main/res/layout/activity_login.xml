@@ -37,9 +37,11 @@
         android:onClick="signup"/>
     <TextView
         android:id="@+id/tvStatus"
+        android:textAlignment="center"
+        android:textSize="30sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:hint="" />
+        android:text="Status"/>
 
 </LinearLayout>
