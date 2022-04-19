@@ -10,8 +10,13 @@
    <androidx.viewpager.widget.ViewPager
        android:id="@+id/viewpager"
        android:layout_width="match_parent"
-       android:layout_height="600dp"
-      />
+       android:layout_height="600dp">
+
+      <com.google.android.material.tabs.TabLayout
+          android:id="@+id/tab_layout"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+   </androidx.viewpager.widget.ViewPager>
 
    <Button
        android:layout_width="wrap_content"
