@@ -8,9 +8,9 @@ import androidx.viewpager.widget.ViewPager
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_swipe_tab_example)
 
-        val viewPager = findViewById<View>(R.id.viewpager) as ViewPager
+        val viewPager = findViewById<View>(R.id.view_pager) as ViewPager
         val adapter = SimpleFragmentPagerAdapter(supportFragmentManager)
 
         viewPager.adapter = adapter

@@ -7,7 +7,7 @@ import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.PagerAdapter
 import com.example.swipeexample.ui.login.LoginFragment
 
-class SimpleFragmentPagerAdapter(supportFragmentManager: FragmentManager) : FragmentPagerAdapter(supportFragmentManager) {
+class SwipeTabExample(supportFragmentManager: FragmentManager) : FragmentPagerAdapter(supportFragmentManager) {
     override fun getCount(): Int {
         return 4
     }
@@ -27,13 +27,11 @@ class SimpleFragmentPagerAdapter(supportFragmentManager: FragmentManager) : Frag
     override fun getPageTitle(position: Int) : CharSequence? {
         var title : String ? = null
         if(position == 0) {
-            title = "Aurora"
+            title = "CSE1"
         } else if(position == 1) {
-            title = "Evening"
+            title = "CSE2"
         } else if(position == 2) {
-            title = "Form"
-        } else if(position == 3) {
-            title = "Mountain"
+            title = "CSE3"
         }
 
         return title
